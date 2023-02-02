@@ -1,0 +1,37 @@
+List of Models for Game Learning
+
+Model PPO -1 
+model = PPO('CnnPolicy', env, verbose=1, tensorboard_log=LOG_DIR, learning_rate=0.000001, 
+n_steps=512, seed = 311, gamma = 0.99) 
+
+Mario - PPO - 2
+model = PPO('CnnPolicy', env, verbose=1, tensorboard_log=LOG_DIR, learning_rate=0.000001, 
+n_steps=512, seed = 121, gamma = 0.99) 
+
+Mario  PPO - 3
+model = PPO('CnnPolicy', env, verbose=1, tensorboard_log=LOG_DIR, learning_rate=0.000001, 
+n_steps=512, seed = 214, gamma = 0.99) 
+
+Mario PPO - 4 
+model = PPO('MlpPolicy', env, verbose=1, tensorboard_log=LOG_DIR, learning_rate=0.000001,
+n_steps=512, seed =10 )
+
+Mario PPO -5
+model = PPO('CnnPolicy', env, verbose=1, tensorboard_log=LOG_DIR, learning_rate=0.000001,
+n_steps=512, seed =20 )
+
+Mario PPO -6
+model = PPO('MlpPolicy', env, verbose=1, tensorboard_log=LOG_DIR, learning_rate=0.000001,
+n_steps=512, seed =6 )
+
+Mario PPO - 7 
+model = PPO('MlpPolicy', env, verbose=1, tensorboard_log=LOG_DIR, learning_rate=0.06000,
+n_steps=512, seed =20 )
+
+Mario DQN - 8
+model = DQN('CnnPolicy', env, verbose=1, tensorboard_log=LOG_DIR, learning_rate=0.000001,
+buffer_size=224, seed =10)
+
+Mario A2C - 9
+model = A2C('CnnPolicy', env, verbose=1, tensorboard_log=LOG_DIR, learning_rate=0.000001, 
+seed =20)
