@@ -5,4 +5,10 @@ Evaluated the agents using metrics sush as Avg. Reward, Avg. Q-Value, Avg. Game 
 
 Trained at least three different agents (in addition to any baseline), which can differ in their state representation (CNN, CNN-RNN, CNN-Transformer) and/or different learning algorithms. and reports with three different seeds and average their results.
 
-![image](https://user-images.githubusercontent.com/101992840/216441535-d0bedf63-30a8-4ed5-afa0-5b1228e4b983.png)
+![1](https://user-images.githubusercontent.com/101992840/216442137-d62da35f-252f-4df4-8507-5985f4b494c6.png)
+![2](https://user-images.githubusercontent.com/101992840/216442147-caf3ab75-91ec-452e-b43e-eecdfbc94619.png)
+![3](https://user-images.githubusercontent.com/101992840/216442161-cf067e47-baea-4007-b0c2-a4e4d1d2f5cd.png)
+
+
+Conclusion: 
+The results were not as good as expected. One of the reason could be the number of training epochs. It took four hours to train one agent. 
