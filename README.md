@@ -11,4 +11,4 @@ Trained at least three different agents (in addition to any baseline), which can
 
 
 Conclusion: 
-The results were not as good as expected. One of the reason could be the number of training epochs. It took four hours to train one agent. 
+The results were not as good as expected. One of the reasons could be the number of training epochs. Also, it took four hours to train one agent. 
